@@ -33,12 +33,6 @@ For data reading, VL53L0X Time of Flight Sensors (2 uds) : https://www.amazon.es
 
 <img src="https://heltec.org/wp-content/uploads/2020/04/board002.png" width="150" height="150"/><img src="https://naylampmechatronics.com/1620-large_default/sensor-vl53l0x-de-tof.jpg" width="150" height="150"/>
 
-
-
-
-
-
-
 ## MAKE THE PROJECT WORK
 
 	1. If you are using PLATFORM IO download and unzip project folder and open it using the program.
@@ -67,6 +61,9 @@ For data reading, VL53L0X Time of Flight Sensors (2 uds) : https://www.amazon.es
 	5. Once you've change this parameters then you can build the code and upload ir to your board. It should work.
 
 
+#### NOTE : 
+		We used ABP method for all devices, because OTAA didn't work properly, is recommended to use ABP.
+
 ## REGISTER ANY DEVICE ON TTN
 
 In order to receive data via LoRaWAN, you need to register the device in TTN Network. Here you cand find good tutorials about how to do it.
@@ -76,6 +73,6 @@ In order to receive data via LoRaWAN, you need to register the device in TTN Net
 
 ## UNIVERSAL PCB
 
-To make the connections easier we've designed a PCB board, that can be used in other projects apart from this one.
+To make the connections easier we've designed a PCB board, that can be used in other projects apart from this one. Gerber files can be found as PCB_FILES.zip
 
 <img src= https://user-images.githubusercontent.com/75246223/100598694-5fc92880-32ff-11eb-98ab-012b1e58ebb6.png width="400" height="350" />
