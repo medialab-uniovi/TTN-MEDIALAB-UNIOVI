@@ -73,6 +73,6 @@ In order to receive data via LoRaWAN, you need to register the device in TTN Net
 
 ## UNIVERSAL PCB
 
-To make the connections easier we've designed a PCB board, that can be used in other projects apart from this one. Gerber files can be found as PCB_FILES.zip
+To make the connections easier we've designed a PCB board, that can be used in other projects apart from this one, it's designed to connect Cuebecell board. Gerber files can be found as PCB_FILES.zip
 
 <img src= https://user-images.githubusercontent.com/75246223/100598694-5fc92880-32ff-11eb-98ab-012b1e58ebb6.png width="400" height="350" />
