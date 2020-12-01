@@ -20,4 +20,4 @@ The Universal PCB has been desgined to use with the [Heltec Development Board](h
 
 You can find more information about the initiative & projects being developed on the official website:
 
-## **http://www.medialab-uniovi.es/pro-holalora.php** 
+## **http://www.medialab-uniovi.es/pro-holalora.php**
