@@ -14,7 +14,7 @@ You can find all the information related to the projects in their respectives fo
 
 In addition, to make easier the way people can prototype different IoT devices, we've designed an **Universal PCB** that can be used with all the projects listed and also provides additional pins to connect different sensors or modules.
 
-![Universal PCB for CubeCell Board](/images\universal_pcb_cubecell_dev_board.png)
+![Universal PCB for CubeCell Board](/images/universal_pcb_cubecell_dev_board.png)
 
 The Universal PCB has been desgined to use with the [Heltec Development Board](https://heltec.org/project/htcc-ab01/) which is compatible with Arduino and PlatformIO.
 
