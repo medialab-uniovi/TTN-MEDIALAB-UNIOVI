@@ -51,10 +51,9 @@ The code can be structured into two parts :
 ## REGISTER THE DEVICE ON TTN
 
 In order to receive data via LoRaWAN, you need to register the device in TTN Network. 
-Below you cand find tutorials to learn how to do it:
+Below you cand find a tutorial to learn how to do it:
 
-1. [Getting started with TTN](https://www.thethingsnetwork.org/docs/devices/uno/quick-start.html#get-your-device-eui)
-2. [Device registration](https://www.thethingsnetwork.org/docs/devices/registration.html)
+[Device registration](https://www.thethingsnetwork.org/docs/devices/registration.html)
 
 #### IMPORTANT NOTE :
 
