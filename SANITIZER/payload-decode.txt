@@ -1,0 +1,10 @@
+function Decoder(bytes, port) {
+
+  var contador = (bytes[0] << 8) | bytes[1];
+  var voltaje = (bytes[2] << 8) | bytes[3];
+
+  return {
+    usos : contador,
+    voltaje: voltaje / 1000,
+  }
+}

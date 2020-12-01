@@ -1,0 +1,15 @@
+function Decoder(bytes, port) {
+  var voltaje = (bytes[0] << 8) | bytes[1];
+  var porcentaje = bytes[2];
+  var temperatura = bytes[3]<<24>>16 | bytes[4];
+  var humedad = (bytes[5] << 8) | bytes[6];
+  var presion = ((bytes[7]) << 24) + ((bytes[8]) << 16) + ((bytes[9]) << 8) + ((bytes[10]));
+  
+  return {
+    voltaje: voltaje / 1000,
+    porcentaje: porcentaje,
+    temperatura: temperatura / 100,
+    humedad: humedad,
+    presion: presion / 100
+  }
+}
