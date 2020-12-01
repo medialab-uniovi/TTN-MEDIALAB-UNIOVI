@@ -1,13 +1,12 @@
-# PAX counter
+# SANITIZER
 
 
-This project is a people counter device developed by University of Oviedo. 
-The aim of the project is to be able to record the capacity in the different places inside the buildings of the university.
+This project is a hydroalcoholic gel dispenser device developed by University of Oviedo.
+The aim of the project is to be able to record the number times the device has been used.
 
+It dispenses gel whether a person puts their hands in the hole that the device has enabled. The device is designed to be placed near some entrance or exit for anyone to use it.
 
-It determines whether a person comes in or out the place where it's placed. The device is designed to be placed near some entrance or exit, fixed in the wall so it can count the number of people inside that room. The data is sent via LoRaWAN protocol using The Things Network.
-
-How it works?  With 2 Time of Flight (ToF) sensors and a microcontroller, system can detect if someone walk through the infrared ray of the device, then depending on which sensor detects first, can be determinated if the person comes in or out the room.
+How it works? A IR sensor detects if the hands have been put into the hole, and then the microcontroller activates the gel dispenser pump through an H-Bridge. The device records the number of times the device has been used and data is sent via LoRaWAN protocol using The Things Network after a fixed time.
 
 ## SOFTWARE
 
@@ -15,7 +14,7 @@ You need to install [PlatformIO](https://platformio.org/) extension for Visual S
 
 The code can be structured into two parts :
 
-	- Reading data from VL53L0X sensor : this part must stay the same as the original code.
+	- Reading data from IR Sensor : this part must stay the same as the original code.
 
 	- Sending data via LoRaWAN : whether if you use OTAA or ABP activation method. You must change the parameters given by your TTN console account in order to send the data correctly.  
 	
@@ -23,7 +22,11 @@ The code can be structured into two parts :
 	
 * CubeCell Dev Board (AB01), you can find it here: https://heltec.org/project/htcc-ab01/
 
-* VL53L0X Time of Flight Sensors (2 uds) : [Amazon example link](https://www.amazon.es/TECNOIOT-VL53L0X-Flight-Distance-GY-VL53L0XV2/dp/B07RKXRZWX/ref=sr_1_5?dchild=1&keywords=vl53l0x&qid=1606135848&sr=8-5)
+* IR Sensor (GP2Y0A41SK0F) (1 uds): [Amazon example link](https://www.amazon.es/HILABEE-Proximidad-Infrarrojo-Distancia-GP2Y0A41SK0F/dp/B07TF7NP8N/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=GP2Y0A41SK0F&qid=1606842972&sr=8-2)
+
+* L9110s H-Bridge (1 uds): [Amazon example link](https://www.amazon.es/TECNOIOT-L9110S-H-Bridge-Stepper-Controller/dp/B07KFLZKP1/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=L9110S+H-Bridge&qid=1606843173&sr=8-1)
+
+* Water pump 6V (1 uds): [Amazon example link](https://www.amazon.es/Solomi-Bomba-dosificaci%C3%B3n-perist%C3%A1ltica-Aquarium/dp/B07SZBTY84/ref=sr_1_10?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=bomba+de+agua+6v&qid=1606843741&sr=8-10)
 
 ## RUN THE PROJECT
 
