@@ -51,7 +51,7 @@ The code can be structured into two parts :
 
 	4. Setup the payload decode function in the Payload Formats tab inside the Application where you have registered your device.
 
-## REGISTER ANY DEVICE ON TTN
+## REGISTER THE DEVICE ON TTN
 
 In order to receive data via LoRaWAN, you need to register the device in TTN Network. 
 Below you cand find tutorials to learn how to do it:
