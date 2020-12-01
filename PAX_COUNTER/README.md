@@ -15,9 +15,9 @@ You need to install [PlatformIO](https://platformio.org/) extension for Visual S
 
 The code can be structured into two parts :
 
-	- Reading data from VL53L0X sensor : this part must stay the same as the original code.
+- Reading data from VL53L0X sensor : this part must stay the same as the original code.
 
-	- Sending data via LoRaWAN : whether if you use OTAA or ABP activation method. You must change the parameters given by your TTN console account in order to send the data correctly.  
+- Sending data via LoRaWAN : whether if you use OTAA or ABP activation method. You must change the parameters given by your TTN console account in order to send the data correctly.  
 	
 ## HARDWARE	
 	
