@@ -1,11 +1,23 @@
 # TNN-MEDIALAB-UNIOVI
 
-The aim of this project is to join The Things Network community, adding LoRa Gateways in the University of Oviedo campus, so different sensors can connect and send data via LoRaWAN.
+The aim of this project is to join [The Things Network](https://www.thethingsnetwork.org/) initative and experiment with different Internet of Things use cases.
 
-The devices that we've built are a PAX counter and a Sanitizer, you can find all the information in each folder. In order to join and make easier the way people can use the devices, we've designed an universal PCB that can be used with all of them and it also has additional pins in order to add other modules if its neccesary. Also we used and open source project for a wheater station, that uses the same board than us. 
+We have placed some LoRa Gateways at the EPI Gijón Campus (University of Ovied) enabling anyone to connect their IoT project through sending data over LoRa technology.
 
-For all the projects is use cubecell development board: https://heltec.org/project/htcc-ab01/ Compatible with Arduino and Arduino IDE. 
+This repository will list & contain the different devices that have been developed:
 
-PAX counter project has also an outside design in 3D printing, so it can be fixed in the wall.
+- **PAX COUNTER**
+- **SANITIZER**
+- **MINI WEATHER STATION** (a fork slightly modified from this [original project](https://github.com/chrisys/mini-lora-weatherstation))
 
-You can find more information about the projects and the different materials used in our web page : http://www.medialab-uniovi.es/pro-holalora.php
+You can find all the information related to the projects in their respectives folders. 
+
+In addition, to make easier the way people can prototype different IoT devices, we've designed an **Universal PCB** that can be used with all the projects listed and also provides additional pins to connect different sensors or modules.
+
+![Universal PCB for CubeCell Board](/images\universal_pcb_cubecell_dev_board.png)
+
+The Universal PCB has been desgined to use with the [Heltec Development Board](https://heltec.org/project/htcc-ab01/) which is compatible with Arduino and PlatformIO.
+
+You can find more information about the initiative & projects being developed on the official website:
+
+## **http://www.medialab-uniovi.es/pro-holalora.php**
