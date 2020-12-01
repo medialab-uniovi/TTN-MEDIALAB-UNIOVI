@@ -1,4 +1,4 @@
-# TNN-MEDIALAB-UNIOVI
+# THE THINGS NETWORK - MEDIALAB-UNIOVI
 
 The aim of this project is to join [The Things Network](https://www.thethingsnetwork.org/) initative and experiment with different Internet of Things use cases.
 
