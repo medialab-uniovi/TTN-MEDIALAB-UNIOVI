@@ -1,6 +1,6 @@
 # MediaLab Uniovi - THE THINGS NETWORK - 
 
-The aim of this project is to join [The Things Network](https://www.thethingsnetwork.org/) initative and experiment with different Internet of Things use cases.
+The aim of this project is to join [The Things Network](https://www.thethingsnetwork.org/) initative and experiment with different **Internet of Things** use cases.
 
 We have placed some LoRa Gateways at the EPI Gijón Campus (University of Oviedo) enabling anyone to connect their IoT projects through sending data over LoRa technology.
 
@@ -23,7 +23,7 @@ In addition, to **make easier the way people can prototype different IoT devices
 The Universal PCB has been desgined to use with the [Heltec CubeCell Dev-Board](https://heltec.org/project/htcc-ab01/) which is compatible with **Arduino IDE & PlatformIO** and includes a **built in battery management 🔋 & solar charging ☀️** functionality, as well as **ultra low power consumption**, making it a good choice to prototype LoRa-connected devices almost anywhere we want.
 
 <p align="center">
-  <img width="350" height="350" src="https://github.com/medialab-uniovi/TTN-MEDIALAB-UNIOVI/blob/main/images/universal_pcb_cubecell_dev_board.png" alt="Universal PCB"/>
+  <img width="350" height="350" src="https://github.com/medialab-uniovi/TTN-MEDIALAB-UNIOVI/blob/main/images/universal_pcb_cubecell_dev_board.png"/>
 </p>
 
 You can find source files inside **PCB_FILES** folder.
