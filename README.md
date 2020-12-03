@@ -23,6 +23,7 @@ In addition, to **make easier the way people can prototype different IoT devices
 The Universal PCB has been desgined to use with the [Heltec CubeCell Dev-Board](https://heltec.org/project/htcc-ab01/) which is compatible with **Arduino IDE & PlatformIO** and includes a **built in battery management 🔋 & solar charging ☀️** functionality, as well as **ultra low power consumption**, making it a good choice to prototype LoRa-connected devices almost anywhere we want.
 
 <p align="center">
+  <img width="350" height="350" src="https://github.com/medialab-uniovi/TTN-MEDIALAB-UNIOVI/blob/main/images/1st_pcb_version_developed.png"/>
   <img width="350" height="350" src="https://github.com/medialab-uniovi/TTN-MEDIALAB-UNIOVI/blob/main/images/universal_pcb_cubecell_dev_board.png"/>
 </p>
 
