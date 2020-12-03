@@ -1,7 +1,7 @@
 # PAX counter
 
 
-This project is a people counter device developed by University of Oviedo. 
+This project is a people counter device developed by MediaLab Chair (University of Oviedo). 
 The aim of the project is to be able to record the capacity in the different places inside the buildings of the university.
 
 
