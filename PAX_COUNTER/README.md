@@ -9,6 +9,11 @@ It determines whether a person comes in or out the place where it's placed. The 
 
 How it works?  With 2 Time of Flight (ToF) sensors and a microcontroller, system can detect if someone walk through the infrared ray of the device, then depending on which sensor detects first, can be determinated if the person comes in or out the room.
 
+<p align="center">
+  <img width="400" height="400" src="https://github.com/medialab-uniovi/TTN-MEDIALAB-UNIOVI/PAX_COUNTER/images/pax_counter.png"/>
+  <img width="400" height="400" src="https://github.com/medialab-uniovi/TTN-MEDIALAB-UNIOVI/PAX_COUNTER/images/pax_counter_enclosure.jpg"/>
+</p>
+
 ## SOFTWARE
 
 You need to install [PlatformIO](https://platformio.org/) extension for Visual Studio Code to upload the code to board.
