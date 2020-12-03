@@ -53,7 +53,7 @@ The code can be structured into two parts :
 	
 	3. Once you've change this parameters then you can build the code and upload it to your board.
 
-	4. Setup the payload decode function (copy & paste from **payload-decode.txt file) in the Payload Formats tab inside the Application where you have registered your device.
+	4. Setup the payload decode function in the Payload Formats tab inside the Application where you have registered your device.
 
 ## REGISTER THE DEVICE ON TTN
 
