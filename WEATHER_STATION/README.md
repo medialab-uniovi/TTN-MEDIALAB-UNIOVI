@@ -11,7 +11,7 @@ The data is sent via LoRaWAN protocol using The Things Network.
 How it works?  An environmental sensor (BME280) and a microcontroller board powered by a LiPo battery reads the environmental data each a fixed period of time (can be configured via code) and send the data via LoRaWAN.
 
 <p align="center">
-  <img width="400" height="400" src="https://github.com/medialab-uniovi/TTN-MEDIALAB-UNIOVI/blob/main/WEATHER_STATION/images/mini_lora_weather_station.png"/>
+  <img width="400" height="600" src="https://github.com/medialab-uniovi/TTN-MEDIALAB-UNIOVI/blob/main/WEATHER_STATION/images/mini_lora_weather_station.png"/>
 </p>
 
 ## SOFTWARE
