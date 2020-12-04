@@ -39,6 +39,6 @@ Data is displayed in real time and accessible through the following control pane
 
 ## http://sensores.medialab-uniovi.es/ui/
 
-# LICENSE 📋
+# License 📋
 
 Copyright (c) 2020 medialab-uniovi
