@@ -31,11 +31,11 @@ You can find source files inside **PCB_FILES** folder.
 
 # Official Websites 🌐
 
-You can find more information about the initiative & projects being developed on the official website:
+You can find more information about the initiative & projects being developed in the official website:
 
 ## http://www.medialab-uniovi.es/pro-holalora.php
 
-Data is displayed in real time and accessible through the following control panel that has been enabled for the **public access** from any device with a web browser:
+Data is displayed in real time and accessible through the following control panel *(dashboard)* that has been enabled for the **public access** from any device with a web browser:
 
 ## http://sensores.medialab-uniovi.es/ui/
 
