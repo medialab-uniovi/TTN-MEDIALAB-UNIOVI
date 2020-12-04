@@ -1,4 +1,4 @@
-# MediaLab Uniovi - THE THINGS NETWORK - 
+# MediaLab Uniovi - THE THINGS NETWORK - 📡
 
 The aim of this project is to join [The Things Network](https://www.thethingsnetwork.org/) initative and experiment with different **Internet of Things** use cases.
 
@@ -16,7 +16,7 @@ This repository will list & contain the different devices that have been develop
 
 You can find all the information related to the projects in their respectives folders. 
 
-## Universal PCB Adapter for CubeCell Dev-Board
+## Universal PCB Adapter for CubeCell Dev-Board ⚙️
 
 In addition, to **make easier the way people can prototype different IoT devices as solutions to a variety of use cases**, we've designed an **Universal PCB** that can be used with all the projects listed and it also provides **additional pins** to connect different sensors or modules.
 
@@ -29,12 +29,16 @@ The Universal PCB has been desgined to use with the [Heltec CubeCell Dev-Board](
 
 You can find source files inside **PCB_FILES** folder.
 
-## OFFICIAL PROJECT WEBSITES
+# OFFICIAL PROJECT WEBSITES 🌐
 
 You can find more information about the initiative & projects being developed on the official website:
 
-## <center>http://www.medialab-uniovi.es/pro-holalora.php</center>
+## http://www.medialab-uniovi.es/pro-holalora.php
 
 Data is displayed in real time and accessible through the following control panel that has been enabled for the **public access** from any device with a web browser:
 
-## <center>http://sensores.medialab-uniovi.es/ui/</center>
+## http://sensores.medialab-uniovi.es/ui/
+
+# LICENSE 📋
+
+Copyright (c) 2020 medialab-uniovi
