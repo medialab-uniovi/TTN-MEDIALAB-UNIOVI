@@ -29,7 +29,7 @@ The Universal PCB has been desgined to use with the [Heltec CubeCell Dev-Board](
 
 You can find source files inside **PCB_FILES** folder.
 
-# OFFICIAL PROJECT WEBSITES 🌐
+# Official Websites 🌐
 
 You can find more information about the initiative & projects being developed on the official website:
 
